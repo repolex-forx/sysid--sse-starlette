@@ -1,0 +1,15 @@
+[2026-09-16T20:40:10Z] === ENRICH ITERATION 1 START | repo=sysid/sse-starlette sha=c938db3f ===
+[2026-09-16T20:40:10Z] [iter=1] PHASE START: enrich repo=sysid/sse-starlette sha=c938db3f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c938db3f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c938db3f6ea262f5f087c75d8631c3aab9cbf0ad.nq.gz
+[2026-09-16T20:40:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-16T20:40:21Z] [iter=1] AST store loaded triples=125180 load_secs=1 mem_mb=266 MB
+[2026-09-16T20:40:21Z] [iter=1] Step 2: Finding LSP targets mem_mb=266 MB
+[2026-09-16T20:40:21Z] [iter=1] LSP targets found call_sites=947 imports=0 extends=0 implements=0 secs=0
+[2026-09-16T20:40:21Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=266 MB
+[2026-09-16T20:40:22Z] [iter=1] Position index built positions=8327 nodes_with_types=10911 secs=1 mem_mb=266 MB
+[2026-09-16T20:40:22Z] [iter=1] Step 3: Starting LSP resolution mem_mb=266 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T20:40:22Z] [iter=1] Resolving target type target_type=call_site count=947
+[2026-09-16T20:40:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=9 resolved=270 errors=115 current=tests/test_issue167.py
+[2026-09-16T20:40:48Z] [iter=1] Target type resolved target_type=call_site resolved=563 errors=200 secs=26 mem_mb=266 MB
+[2026-09-16T20:40:50Z] [iter=1] Step 5: Writing final enrichment file triples=9506
+[2026-09-16T20:40:51Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c938db3f6ea262f5f087c75d8631c3aab9cbf0ad.nq.gz size_kb=173
+[2026-09-16T20:40:51Z] [iter=1] PHASE END: enrich elapsed_s=41 elapsed_min=0.7 total_triples=9506
