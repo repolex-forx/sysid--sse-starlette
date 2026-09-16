@@ -1,0 +1,39 @@
+{
+  "manifest_version": "1.0",
+  "org": "sysid",
+  "repo": "sse-starlette",
+  "versions": [
+    {
+      "commit": "1f0a6343e9ba9aa487c3d4cc952ecf5d81483bae",
+      "parsed_at": "2026-09-16T19:02:21.740976+00:00",
+      "tag": "0.2.0",
+      "filetree": "filetree/1f0a6343e9ba9aa487c3d4cc952ecf5d81483bae.nq.gz",
+      "blobs": [
+        "blob/24fd683602f4ec2383b3ad1e4c1e33a81e0c32ed.nq.gz",
+        "blob/af3da677d89bdb9adaeef88557d4667b133eb8df.nq.gz",
+        "blob/1a3cd0416c9f1860986ca3f4f6a8107404be8ae9.nq.gz",
+        "blob/21b405d8c2dac873e9063b1dff87e46c3876aa58.nq.gz",
+        "blob/120be61b0740d16145164a31a63d2ae02850ad1e.nq.gz",
+        "blob/784ed1a7daf9ff564fe8c297afc73d159a1160bd.nq.gz",
+        "blob/6bc63498bb2b4ec3b8be65fa2c851aebad048e5c.nq.gz",
+        "blob/16e31575ba312399a16b2f1ffbb62228f33f165f.nq.gz",
+        "blob/a6db7f019b78b6eb534fb32718467da502e99a22.nq.gz",
+        "blob/fb650ec1be29b005530f1dcf8391b357187f61a6.nq.gz",
+        "blob/29c38a9a6c58da8fa957babe0cceafa860024eca.nq.gz",
+        "blob/c2336342e2cd67e9c3022ecaa4788bb909039e77.nq.gz",
+        "blob/01f2a3b08d8c70b17701fdd1195fe2b244d41aa8.nq.gz",
+        "blob/ea93bc4f2a679f4f7ff87060f4b9724c8b4b2f3c.nq.gz",
+        "blob/ca13063a2f15468b868b60646b3aaab53071b059.nq.gz",
+        "blob/0f55757d916807c17617833470d5565b2fd0c9fb.nq.gz",
+        "blob/3d129717ad00e9a800fe27cfc68b5e01aad29a6c.nq.gz",
+        "blob/fcc4eddcfd3b5f47d3753f7e36a1e66ac08484a1.nq.gz",
+        "blob/d222e8e858543b0b35e99bdcca6caf1ab8995473.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
